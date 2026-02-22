@@ -1,0 +1,14 @@
+Heads:
+  Pacman:
+    texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQyYWE1ZTMxODQ2NThkNDc1MTFjZWEyOGRkYjVjNDFhMzgwYjgwYTQzNzdjMThjM2M1NWJjOWU4ZTVjNjRjIn19fQ=="
+    name: "&cPacMan"
+    permission: false
+    lore:
+    - "PacMan"
+    - "Test"
+Names:
+  - "Pacman"
+ru:
+  text-not-permission: У вас нет прав
+  text-gui-open-permission: Выдать permission
+  text-gui-close-permission: Отнять permission

@@ -1,0 +1,12 @@
+name: CreateHead
+version: 1.0.0
+main: org.cat.shoolpluginmy.ShoolPluginMy
+api-version: '1.18'
+description:  new command CreateHead and pan
+author: pashacat2015
+commands:
+  CreateHead:
+    description: "CreateHead"
+    usage: '/CreateHead'
+depend:
+  - PlaceholderAPI
