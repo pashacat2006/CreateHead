@@ -20,7 +20,7 @@ public class Placeholders extends PlaceholderExpansion {
     @Override
     // Тут версию, но чаще всего она бесполезна для ваших целей. Тут уже это для eCloud.
     public String getVersion() {
-        return "1.0";
+        return "1.2.0";
     }
 
     @Override

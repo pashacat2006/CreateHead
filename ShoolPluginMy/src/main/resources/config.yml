@@ -6,9 +6,23 @@ Heads:
     lore:
     - "PacMan"
     - "Test"
+
 Names:
   - "Pacman"
+
+mysql:
+  enabled: false
+  host: localhost
+  port: 3306
+  database: createhead
+  username: root
+  password: password
+  table: createhead_data
+  use-ssl: false
+
 ru:
-  text-not-permission: У вас нет прав
-  text-gui-open-permission: Выдать permission
-  text-gui-close-permission: Отнять permission
+  text-not-permission: "&cУ вас нет прав"
+  text-reload-success: "&aКонфигурация и MySQL успешно перезагружены."
+  text-head-not-found: "&cГолова не найдена в конфигурации."
+  text-gui-open-permission: "Выдать permission"
+  text-gui-close-permission: "Отнять permission"

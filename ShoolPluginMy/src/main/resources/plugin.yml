@@ -1,12 +1,23 @@
 name: CreateHead
-version: 1.0.0
+version: 1.2.0
 main: org.cat.shoolpluginmy.ShoolPluginMy
-api-version: '1.18'
-description:  new command CreateHead and pan
+api-version: '1.21'
+description: CreateHead plugin for Minecraft 1.21.1
 author: pashacat2015
 commands:
   CreateHead:
     description: "CreateHead"
-    usage: '/CreateHead'
+    usage: '/CreateHead <head|reload>'
+    permission: createhead.use
 depend:
   - PlaceholderAPI
+permissions:
+  createhead.use:
+    description: Allows using /CreateHead
+    default: op
+  createhead.admin:
+    description: Allows creating heads that require permission
+    default: op
+  createhead.reload:
+    description: Allows reloading plugin configuration
+    default: op
